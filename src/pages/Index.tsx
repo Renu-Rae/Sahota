@@ -37,7 +37,10 @@ const Index = () => {
             className="w-full h-full object-cover object-top"
           />
         </div>
-        <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
+        <h1 className="font-script text-2xl md:text-3xl font-light italic tracking-wide text-foreground mt-6 mb-1">
+          Renu Rae Sahota
+        </h1>
+        <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground">
           Polymath
         </p>
       </section>
