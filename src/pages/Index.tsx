@@ -54,8 +54,8 @@ const Index = () => {
           One Vision
         </h2>
         <p className="font-script text-lg md:text-xl leading-relaxed text-muted-foreground font-light">
-          Renu Rae Sahota is a Canadian actress and geoscientist whose unique dual career
-          reflects a deep curiosity about both the human experience and the natural world.
+          Renu Rae Sahota is a Canadian actress, geoscientist, and multimedia artist whose unique
+          career reflects a deep curiosity about both the human experience and the natural world.
           With degrees from the Faculty of Science and Arts from the University of Calgary,
           she brings analytical precision and emotional depth to every role.
         </p>
