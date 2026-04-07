@@ -5,10 +5,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 md:px-12 py-6">
-        <h1 className="font-script text-2xl md:text-3xl font-light italic tracking-wide text-foreground">
-          Renu Rae Sahota
-        </h1>
+      <header className="flex items-center justify-end px-6 md:px-12 py-6">
         <div className="flex items-center gap-4">
           <a
             href="https://www.instagram.com/raesahota/"
