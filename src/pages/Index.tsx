@@ -5,10 +5,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 md:px-12 py-6">
-        <h1 className="font-script text-2xl md:text-3xl font-light italic tracking-wide text-foreground">
-          Renu Rae Sahota
-        </h1>
+      <header className="flex items-center justify-end px-6 md:px-12 py-6">
         <div className="flex items-center gap-4">
           <a
             href="https://www.instagram.com/raesahota/"
@@ -40,7 +37,10 @@ const Index = () => {
             className="w-full h-full object-cover object-top"
           />
         </div>
-        <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
+        <h1 className="font-script text-2xl md:text-3xl font-light italic tracking-wide text-foreground mt-6 mb-1">
+          Renu Rae Sahota
+        </h1>
+        <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground">
           Polymath
         </p>
       </section>
@@ -54,8 +54,8 @@ const Index = () => {
           One Vision
         </h2>
         <p className="font-script text-lg md:text-xl leading-relaxed text-muted-foreground font-light">
-          Renu Rae Sahota is a Canadian actress and geoscientist whose unique dual career
-          reflects a deep curiosity about both the human experience and the natural world.
+          Renu Rae Sahota is a Canadian actress, geoscientist, and multimedia artist whose unique
+          career reflects a deep curiosity about both the human experience and the natural world.
           With degrees from the Faculty of Science and Arts from the University of Calgary,
           she brings analytical precision and emotional depth to every role.
         </p>
@@ -80,6 +80,9 @@ const Index = () => {
       {/* Footer with collection links */}
       <footer className="border-t border-border py-10 px-6">
         <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
+          <h4 className="font-script text-xl md:text-2xl font-light italic text-foreground">
+            Art Collections
+          </h4>
           <div className="flex items-center gap-8">
             <a
               href="https://opensea.io/collection/renu-x-idiot-machine"
