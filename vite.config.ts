@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-base: '/Sahota/'
-export default defineConfig(({ mode }) => ({
+// https://vitejs.dev/config/
+export default defineConfig(({ mode: /Sahota/ }) => ({
   server: {
     host: "::",
     port: 8080,
